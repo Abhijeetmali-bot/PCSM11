@@ -19,7 +19,7 @@ public class Flipkart {
 	 	close.click();
 	 	Actions a=new Actions(driver);//object creation
 	 	Thread.sleep(2000);
-	 	List<WebElement> Menues =driver.findElements(By.xpath(""));
+	 	List<WebElement> Menues=driver.findElements(By.xpath(""));
 	}
 
 }

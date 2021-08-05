@@ -7,8 +7,8 @@ public class Naukri {
  public static void main(String[] args) throws InterruptedException {
     System.setProperty("webdriver.chrome.driver","./Software/chromedriver.exe");
  	WebDriver driver=new ChromeDriver();
- 	driver.navigate().to("https://www.Naukri.com/");
  	driver.manage().window().maximize();
+ 	driver.navigate().to("https://www.Naukri.com/");
  	Thread.sleep(2000);
  	String parent=driver.getWindowHandle();
  	System.out.println("Hello    "+parent);

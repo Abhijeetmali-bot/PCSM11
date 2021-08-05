@@ -11,8 +11,8 @@ public class naukri2 {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver","./Software/chromedriver.exe");
 	 	WebDriver driver=new ChromeDriver();
-	 	driver.navigate().to("https://www.Naukri.com/");
 	 	driver.manage().window().maximize();
+	 	driver.navigate().to("https://www.Naukri.com/");
 	 	Thread.sleep(2000);
 	 	Set<String> wins=driver.getWindowHandles();
 	 	List<String> lst=new ArrayList<String>(wins);

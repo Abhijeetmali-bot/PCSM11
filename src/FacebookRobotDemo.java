@@ -40,7 +40,7 @@ public static void main(String[] args) throws InterruptedException {
 	Point loc=male.getLocation();
 	System.out.println(loc);
 	System.out.println(loc.getX()+ "   "+loc.getY());
-	driver.close();
+	//driver.close();
 	
 }
 }

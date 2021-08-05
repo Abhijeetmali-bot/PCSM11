@@ -27,6 +27,8 @@ public class AlertDemo {
 	 	Thread.sleep(2000);
 	 	WebElement res=driver.findElement(By.id("promptResult"));
 	 	System.out.println(res.getText());
+	 	Thread.sleep(3000);
+	 	driver.close();
 	}
 
 }
